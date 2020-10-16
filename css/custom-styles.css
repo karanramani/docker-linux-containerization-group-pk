@@ -1,0 +1,188 @@
+h1.second-project{
+   font-family: monospace;
+}
+.custom-font{
+    font-family: monospace;
+}
+.text-center{
+    text-align: center;
+}
+.blur-area {
+  backdrop-filter: blur(5px);
+    background-color: rgba(255, 255, 255, 0.3);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+.linkedin-button{
+    background-color: #027BB5;
+    color: white;
+    padding: 1em 1.5em;
+    text-decoration: none;
+}
+.bg-image-custom-homepage{
+    background: url("../images/homepage-bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    font-family: monospace; !important;
+}
+.bg-image-custom-index{
+    background: url("../images/computer-in-park.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    font-family: monospace; !important;
+}
+.bg-image-custom-about{
+    background: url("../images/office-blur.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+    font-family: monospace; !important;
+}
+.white-title{
+    color: white;
+}
+.custom-adjustment{
+    margin-top: 25px;
+    text-align: justify;
+    padding: 70px;
+    height: auto;
+    padding: 50px;
+    width: 75%;
+    color: black;
+    border-radius: 30px;
+    font-family: 'Sathu';
+    line-height: 30px;
+    margin-bottom: 10%;
+}
+.topic-details{
+    margin:0 auto;
+    width: 60%;
+}
+.custom-container-about{
+    margin-top: 25px;
+    text-align: justify;
+    height: auto;
+    padding: 50px;
+    width: 50%;
+    color: black;
+    font-family: 'Sathu';
+    line-height: 30px;
+    border-radius: 30px;
+    margin-bottom: 10%;
+}
+.team-container{
+    font-family: 'Sathu';
+    width: 50%;
+    padding: 10% 10%;
+    color: black;
+    border-radius: 0.25rem;
+    line-height: 30px;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.team-table{
+    width: 35%;
+    margin-bottom: 5%;
+}
+
+.page-header{
+    font-family: 'Sathu';
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    border-bottom: 3px solid white;
+}
+.page-sub-header{
+    font-family: 'Sathu';
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.information-pages-container {
+    text-align: justify;
+    padding: 70px;
+    color: #F0FFFF;
+}
+.active-left-nav{
+    background-color: #123969 !important;
+    color: white !important;
+    font-weight: bold;
+}
+.left-nav-pg{
+    margin-left: 200px;
+}
+.center-box{
+  position: fixed;
+  top: 50%;
+  left: 55%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+.homecarousel{
+    width: 75%;
+    margin: 0 auto;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+
+}
+
+.carousel-caption-custom {
+    text-align: center;
+    margin-top: 32px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+/*Desktop Screen*/
+@media only screen  and (min-device-width: 796px) {
+    .intro-table{
+        width: 40%;
+    }
+
+}
+/*iPad or tablet sizes*/
+ @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+        /*Class for team page table*/
+     .team-table {
+            width: 55%;
+        }
+     .custom-container-about{
+            width: 75%;
+     }
+     .homecarousel{
+        width: 80%;
+         margin-top: 35%;
+     }
+ }
+
+/*Mobile Screens*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+        .team-table {
+            width: 100%;
+        }
+     .custom-container-about{
+            width: 85%;
+     }
+     .homecarousel{
+         width: 100%;
+         padding: 15px;
+     }
+     .carousel-caption-custom{
+         font-size: 18px;
+     }
+     .topic-details {
+         margin: 0 auto;
+         width:100%;
+     }
+ }
