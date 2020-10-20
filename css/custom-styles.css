@@ -19,8 +19,8 @@ h1.second-project{
     padding: 1em 1.5em;
     text-decoration: none;
 }
-.bg-image-custom-homepage{
-    background: url("../images/homepage-bg.jpg") no-repeat center center fixed;
+.bg-image-custom{
+    background: url("../images/bg.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     position: relative;
@@ -131,10 +131,10 @@ h1.second-project{
 .homecarousel{
     width: 75%;
     margin: 0 auto;
-    background: white;
+    background: #343a40 !important;
     padding: 25px;
     border-radius: 20px;
-
+    color: white;
 }
 
 .carousel-caption-custom {
@@ -158,11 +158,12 @@ h1.second-project{
             width: 55%;
         }
      .custom-container-about{
-            width: 75%;
+            width: 100%;
+            padding: 0px;
      }
      .homecarousel{
         width: 80%;
-         margin-top: 35%;
+
      }
  }
 
@@ -172,7 +173,8 @@ h1.second-project{
             width: 100%;
         }
      .custom-container-about{
-            width: 85%;
+            width: 100%;
+            padding: 0;
      }
      .homecarousel{
          width: 100%;
