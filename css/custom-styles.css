@@ -21,21 +21,21 @@ h1.second-project{
     text-decoration: none;
 }
 .bg-image-custom{
-    background: url("../images/bg.jpg") no-repeat center center fixed;
+    background: url("../Images/bg.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     position: relative;
     font-family: sathu; !important;
 }
 .bg-image-custom-index{
-    background: url("../images/computer-in-park.jpg") no-repeat center center fixed;
+    background: url("../Images/computer-in-park.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     position: relative;
     font-family: sathu; !important;
 }
 .bg-image-custom-about{
-    background: url("../images/office-blur.jpg") no-repeat center center fixed;
+    background: url("../Images/office-blur.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     position: relative;
