@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/custom-styles.css">
     <link rel="stylesheet" href="css/bootstrap-utilities.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <title>Docker,Linux,and Containerization-Team Page</title>
+    <title>Docker,Linux,and Containerization-What is Containerization?</title>
 
 </head>
 
@@ -23,7 +23,7 @@
     <h1 style="text-align: center;">Docker, Linux, and Containerization</h1>
     <!-- navigation bar start-->
 
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -40,13 +40,13 @@
         <li class="nav-item">
             <a class="nav-link" href="What-is-Virtualization.html">Virtualization</a>
       </li>
-        <li class="nav-item">
-            <a class="nav-link" href="#">Containerization</a>
+        <li class="nav-item active">
+            <a class="nav-link" href="What-is-Containerization.html">Containerization</a>
       </li>
         <li class="nav-item">
             <a class="nav-link" href="#">Virtualization vs Containerization</a>
       </li>
-        <li class="nav-item active">
+        <li class="nav-item">
             <a class="nav-link" href="team.html">Team Page</a>
       </li>
         <li class="nav-item">
@@ -65,37 +65,35 @@
 </div>
 
 <p>
-<!--ParagraphCreatesSpaceBetweenNAV&&Carousel-->
+<!--ParagraphCreatesSpaceBetweenNAV&&content-->
 </p>
 
-<h1 class="page-sub-header">The Team</h1>
 
-<table class="center team-table">
-  <tbody>
-    <tr>
-      <td class="team-container blur-area">
-          <p style="text-align: center;"><img src="Images/karanramani-cropped.jpg" style="width: 50%; border-radius: 50%;"></p>
-          <h2 style="text-align: center;">Karan Ramani</h2>
-          <ul><li>Karan Ramani is Technical project manager at Johnson and Johnson. He's graduated from NJIT with Bachelor's in Information Technology Class of 2017. His core skills are Project Management and Business development.</li></ul>
-          <ul><li>As a Technical Project Manager, he enjoys ensuring that things run smoothly when it comes to the Web projects development and keeping the open and clear communications between the technical team and business operatives.</li></ul>
-          <p style="text-align: center; padding-top: 20px;"><a class="linkedin-button" href="https://www.linkedin.com/in/kramani0804/"> LinkedIn </a></p>
-      </td>
-  </tbody>
-</table>
+<div class="custom-container-about blur-area center">
+    <h3 style="text-align: center;"><i><u>What is Containerization?</u></i></h3>
+    <p style="text-align: center">
+      <img style="width: 75%;" src="Images/containerization-1.PNG" alt="Containerization"/>
+    </p>
+    <p style="text-align:center;"><i><b>Image Source: </b></i><a href="https://hackernoon.com/what-is-containerization-83ae53a709a6">Click here</a></p>
+    <p>Containerization is a fake OS that's only used when you want to run your code.
+    Container has one kernel which is host OS and one kernel cannot be divided into several kernel machines.
+    You can run a working server in a container. Containerization does not need a "Guest OS" it can run
+    via "Host OS". <i><u>Guest OS </u></i>is part of a Virtual Machine it has all attributes that an Host OS has.
+    Container contains all the run time, libraries, and binaries to run an application.
+    Containers ability to package up lot of dependencies from the OS in one container does not have much OS dependencies.
+    As for container we stick to stick with physical infrastructure. </p>
 
-<table class="center team-table">
-  <tbody>
-    <tr>
-      <td class="team-container blur-area">
-          <p style="text-align: center;"><img src="Images/priyeshabaxi-circle.png" style="width: 50%; border-radius: 50%;"></p>
-          <h2 style="text-align: center;">Priyesha Baxi</h2>
-          <ul><li>Priyesha Baxi works as a Data Analyst. She graduated from NJIT with Bachelors degree in Information Technology Class of 2017. Her core skills include Analytics.</li></ul>
-          <ul><li>She enjoys participating in developmental activities and research at work. She is open to new tools and technologies which enhances her skill set and helps her keep updated with technology.</li></ul>
-          <p style="text-align: center; padding-top: 20px;"><a class="linkedin-button" href="https://www.linkedin.com/in/priyesha-b-a5b22413a/"> LinkedIn </a></p>
-      </td>
-  </tbody>
-</table>
-</body>
+    <p>Benefits of Containerization:</p>
+    <ul>
+  <li>Increased Portability: Containers can be moved across one or many a servers and this does not slow down activities running in the traditional computing environment.  </li>
+  <li>Improved Scalability: You can add or remove features </li>
+  <li>Simple and Fast Deployment: Speeding up deployment and config processes are an advantage to containerization </li>
+        <li>Enhanced Productivity: Helps simplify the installation processes and lessen dependency error which saves a lot of time when installing applications. </li>
+        <li>Improved Security: Isolation allows to improvise security by setting up each applications larger processes apart from one & another in different containers. </li>
+
+</ul>
+
+</div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -106,4 +104,7 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
+
+</body>
 </html>
+
