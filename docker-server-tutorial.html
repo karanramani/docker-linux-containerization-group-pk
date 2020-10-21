@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/custom-styles.css">
+    <link rel="stylesheet" href="css/bootstrap-utilities.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Docker,Linux,and Containerization-What is Containerization?</title>
+  </head>
+  <body class="bg-image-custom">
+    <div class="container">
+      <!--<h1 class="page-header text-xl-center">How the Internet Works</h1>-->
+      <h1 style="text-align: center;">Docker, Linux, and Containerization</h1>
+      <!-- navigation bar start-->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Homepage </a>
+            </li>
+            <li class="nav-item"> <!--Updated-ABOUT This Site-HTMLpg-->
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="What-is-Virtualization.html">Virtualization</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="What-is-Containerization.html">Containerization</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Virtualization vs Containerization</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="team.html">Team Page</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="docker-server-tutorial.html">Docker Server Tutorial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Seventh</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- navigation bar end-->
+  </div>
+  <p>
+    <!--ParagraphCreatesSpaceBetweenNAV&&content-->
+  </p>
+  <div class="custom-container-about blur-area center">
+    <h2 style="text-align: center;">About</h2>
+    <p>A tutorial on how to setup a web server on your local computer using docker</p>
+    <p>1.) In order to run docker server on local machine, first of all we need to install docker.</p>
+    <p>Let’s begin with installing home brew which helps as a resource to find and install latest version of Docker directly from your terminal</p>
+    <p>Copy and paste below link to your terminal and once pasted the prompt message will ask for your password.</p>
+    <p style="text-align: center"><strong>/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)” </strong></p>
+    <p style="text-align: center"><img style="width: 55%;" src="Images/1.png" alt="Virtualization vs Containerization"/></p>
+
+    <p>2.) Once the install is complete type in below command on terminal. </p>
+
+    <p style="font-weight: 900; text-align: center;"><strong>brew update </strong></p>
+    <p style="text-align: center"><img style="width: 55%;" src="Images/2.png" alt="Virtualization vs Containerization"/></p>
+    <p>3.) Once the message comes as “Already up-to-date” you are now ready to install docker using brew. Type in below command to get started with installing docker.</p>
+    <p style="font-weight: 900; text-align: center;"><strong>brew cask install docker</strong></p>
+    <p>This task will take a minute or two depending on the internet connection so please be patient.  </p>
+    <p style="text-align: center"><img style="width: 55%;" src="Images/3.png" alt="Virtualization vs Containerization"/></p>
+    <p>4.) Once the docker is installed you will be able to see the docker icon in the applications folder. Before that we need to make sure if we have node installed in the machine as it helps run things within docker.  </p>
+    <p style="text-align: center"><img style="width: 55%;" src="Images/4.png" alt="Virtualization vs Containerization"/></p>
+    <p>Type in below command to get node installed.</p>
+    <p style="font-weight: 900; text-align: center;"><strong>brew install node</strong></p>
+    <p>5.) Once Node is installed double click on that docker file in the applications folder to setup the docker in your machine. </p>
+    <p style="text-align: center"><img style="width: 55%;" src="Images/5.png" alt="Virtualization vs Containerization"/></p>
+    <p>6.) Once Docker is open and running the logo will come up on the top bar as shown below. </p>
+    <p style="text-align: center"><img style="width: 55%;" src="Images/6.png" alt="Virtualization vs Containerization"/></p>
+    <p>7.) Now we can start setting up the node application this is a procedure that is similar with any other applications.</p>
+    <p>Head over to the folder you want to create your application in, in below case the location is in the Documents/njit-project-tutorial </p>
+    <p style="text-align: center"><img style="width: 55%;" src="Images/7.png" alt="Virtualization vs Containerization"/></p>
+    <p>Type in below commands to get Node set-up</p>
+    <p style="font-weight: 900; text-align: center;"><strong>npm init --yes </strong></p>
+    <p style="font-weight: 900; text-align: center;"><strong>Or</strong></p>
+    <p style="font-weight: 900; text-align: center;"><strong>npm install</strong></p>
+    <p style="font-weight: 900; text-align: center;"><strong>&amp;</strong></p>
+    <p style="font-weight: 900; text-align: center;"><strong>touch index.js</strong></p>
+    <p>*if npm is not available, simply type below command before step 7</p>
+    <p style="font-weight: 900; text-align: center;"><strong>brew install npm</strong></p>
+    <p>8.) Once Completed, the folder will have two .json files. Go ahead and create and index file named as “index.js” by typing:</p>
+    <p style="font-weight: 900; text-align: center;"><strong>touch index.js</strong></p>
+    <p>9.) Once created, edit the file by typing <strong>vi index.js</strong></p>
+    <p>10.) press “I” to edit the file and insert below text.</p>
+    <p>const http = require(‘http’);</p>
+    <p>const server = http.createServer((request, response) =&gt; {</p>
+    <p>response.end(‘Hello, Docker server is now running!’);</p>
+    <p>});</p>
+    <p>server.listen(1337);</p>
+    <p>11.) To save and exit the file, press “esc” button and type in “:wq”. This will save and exit out of the file.</p>
+    <p>12.) Now let’s create a docker file by typing: </p>
+    <p style="font-weight: 900; text-align: center;"><strong>touch Dockerfile</strong></p>
+    <p>13.) Once created enter into the Dockerfile by typing <strong>vi Dockerfile </strong>and insert below lines by pressing “I” </p>
+    <p style="font-weight: 900; text-align: center;"><strong>FROM node:carbon</strong></p>
+    <p style="font-weight: 900; text-align: center;"><strong>WORKDIR /src</strong></p>
+    <p style="font-weight: 900; text-align: center;"><strong>COPY . /src/</strong></p>
+    <p style="font-weight: 900; text-align: center;"><strong>CMD [“node, “index.js”]</strong></p>
+    <p style="font-weight: 900; text-align: center;"><strong>EXPOSE 1337</strong></p>
+    <p>14.) Once completed enter below lines to create the webapplication.</p>
+    <p style="font-weight: 900; text-align: center;"><strong>docker build -t webapp .</strong></p>
+    <p style="font-weight: 900; text-align: center;"><strong>docker run -p 1337:1337 webapp</strong></p>
+    <p>15.) After completion you can check by heading to a browser and typing in localhost:1337 in the url bar.</p>
+    <p style="font-weight: 900; text-align: center;"><strong>localhost:1337</strong></p>
+    <p style="text-align: center"><img style="width: 55%;" src="Images/8.png" alt="Virtualization vs Containerization"/></p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+  crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+  crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+  crossorigin="anonymous"></script>
+</body>
+</html>
