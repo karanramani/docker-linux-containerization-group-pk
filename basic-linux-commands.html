@@ -48,7 +48,7 @@
           <li class="nav-item active">
             <a class="nav-link" href="basic-linux-commands.html">Basic Linux Commands</a>
           </li>
-            <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" href="docker-pycharm.html">Docker Pycharm</a>
           </li>
         </ul>
@@ -60,8 +60,65 @@
     <!--ParagraphCreatesSpaceBetweenNAV&&content-->
   </p>
   <div class="custom-container-about blur-area center">
-
-
+    <p style="font-size:20px; font-weight: 900;">1. pwd command</p>
+    <p>Use the&nbsp;<strong>pwd</strong>&nbsp;command to find out the path of the current working directory (folder) you’re in. The command will return an absolute (full) path, which is basically a path of all the directories that starts with a forward slash&nbsp;<strong>(/)</strong>. An example of an absolute path is&nbsp;<strong>/home/username</strong>.</p>
+    <p style="font-size:20px; font-weight: 900;">2. cd command</p>
+    <p>To navigate through the Linux files and directories, use the&nbsp;<strong>cd</strong>&nbsp;command. It requires either the full path or the name of the directory, depending on the current working directory that you’re in.</p>
+    <p style="font-size:20px; font-weight: 900;">3. ls command</p>
+    <p>The<strong>&nbsp;ls</strong>&nbsp;command is used to view the contents of a directory. By default, this command will display the contents of your current working directory.</p>
+    <p style="font-size:20px; font-weight: 900;">4. cat command</p>
+    <p><strong>cat</strong>&nbsp;(short for concatenate) is one of the most frequently used commands in Linux. It is used to list the contents of a file on the standard output (sdout). To run this command, type&nbsp;<strong>cat</strong>&nbsp;followed by the file’s name and its extension. For instance:&nbsp;<strong>cat file.txt</strong>.</p>
+    <p style="font-size:20px; font-weight: 900;">5. cp command</p>
+    <p>Use the&nbsp;<strong>cp</strong>&nbsp;command to copy files from the current directory to a different directory. For instance, the command&nbsp;<strong>cp scenery.jpg</strong>&nbsp;<strong>/home/username/Pictures</strong>&nbsp;would create a copy of&nbsp;<strong>scenery.jpg</strong>&nbsp;(from your current directory) into the&nbsp;<strong>Pictures</strong>&nbsp;directory.</p>
+    <p style="font-size:20px; font-weight: 900;">6. mv command</p>
+    <p>The primary use of the&nbsp;<strong>mv</strong>&nbsp;command is to move files, although it can also be used to rename files.</p>
+    <p style="font-size:20px; font-weight: 900;">7. mkdir command</p>
+    <p>Use&nbsp;<strong>mkdir</strong>&nbsp;command to make a new directory — if you type&nbsp;<strong>mkdir Music</strong>&nbsp;it will create a directory called&nbsp;<strong>Music</strong>.</p>
+    <p style="font-size:20px; font-weight: 900;">8. rmdir command</p>
+    <p>If you need to delete a directory, use the&nbsp;<strong>rmdir</strong>&nbsp;command. However, rmdir only allows you to delete empty directories.</p>
+    <p style="font-size:20px; font-weight: 900;">9. rm command</p>
+    <p>The&nbsp;<strong>rm</strong>&nbsp;command is used to delete directories and the contents within them. If you only want to delete the directory — as an alternative to rmdir — use&nbsp;<strong>rm -r</strong>.</p>
+    <p><strong>Note</strong>: Be very careful with this command and double-check which directory you are in. This will delete everything and there is no undo.</p>
+    <p style="font-size:20px; font-weight: 900;">10. touch command</p>
+    <p>The&nbsp;<strong>touch</strong>&nbsp;command allows you to create a blank new file through the Linux command line. As an example, enter touch&nbsp;<strong>/home/username/Documents/Web.html</strong>&nbsp;to create an HTML file entitled&nbsp;<strong>Web</strong>&nbsp;under the&nbsp;<strong>Documents</strong>&nbsp;directory.</p>
+    <p style="font-size:20px; font-weight: 900;">11. locate command</p>
+    <p>You can use this command to&nbsp;<strong>locate</strong>&nbsp;a file, just like the search command in Windows. What’s more, using the&nbsp;<strong>-i</strong>&nbsp;argument along with this command will make it case-insensitive, so you can search for a file even if you don’t remember its exact name.</p>
+    <p style="font-size:20px; font-weight: 900;">12. find command</p>
+    <p>Similar to the&nbsp;<strong>locate</strong>&nbsp;command, using&nbsp;<strong>find</strong>&nbsp;also searches for files and directories. The difference is, you use the&nbsp;<strong>find</strong>&nbsp;command to locate files within a given directory.</p>
+    <p style="font-size:20px; font-weight: 900;">13. grep command</p>
+    <p>Another basic Linux command that is undoubtedly helpful for everyday use is&nbsp;<strong>grep</strong>. It lets you search through all the text in a given file.</p>
+    <p style="font-size:20px; font-weight: 900;">14. sudo command</p>
+    <p>Short for “<strong>SuperUser Do</strong>”, this command enables you to perform tasks that require administrative or root permissions. However, it is not advisable to use this command for daily use because it might be easy for an error to occur if you did something wrong.</p>
+    <p style="font-size:20px; font-weight: 900;">15. df command</p>
+    <p>Use&nbsp;<strong>df</strong>&nbsp;command to get a report on the system’s disk space usage, shown in percentage and KBs. If you want to see the report in megabytes, type&nbsp;<strong>df -m</strong>.</p>
+    <p style="font-size:20px; font-weight: 900;">16. du command</p>
+    <p>If you want to check how much space a file or a directory takes, the&nbsp;<strong>du</strong>&nbsp;(Disk Usage) command is the answer. However, the disk usage summary will show disk block numbers instead of the usual size format. If you want to see it in bytes, kilobytes, and megabytes, add the&nbsp;<strong>-h</strong>&nbsp;argument to the command line.</p>
+    <p style="font-size:20px; font-weight: 900;">17. head command</p>
+    <p>The<strong>&nbsp;head</strong>&nbsp;command is used to view the first lines of any text file. By default, it will show the first ten lines, but you can change this number to your liking. For example, if you only want to show the first five lines, type&nbsp;<strong>head -n 5 filename.ext</strong>.</p>
+    <p style="font-size:20px; font-weight: 900;">18. tail command</p>
+    <p>This one has a similar function to the head command, but instead of showing the first lines, the&nbsp;<strong>tail</strong>&nbsp;command will display the last ten lines of a text file. For example,&nbsp;<strong>tail -n filename.ext.</strong></p>
+    <p style="font-size:20px; font-weight: 900;">19. diff command</p>
+    <p>Short for difference, the&nbsp;<strong>diff</strong>&nbsp;command compares the contents of two files line by line. After analyzing the files, it will output the lines that do not match. Programmers often use this command when they need to make program alterations instead of rewriting the entire source code.</p>
+    <p style="font-size:20px; font-weight: 900;">20. tar command</p>
+    <p>The&nbsp;<strong>tar</strong>&nbsp;command is the most used command to archive multiple files into a&nbsp;<strong>tarball</strong>&nbsp;— a common Linux file format that is similar to zip format, with compression being optional.</p>
+    <p style="font-size:20px; font-weight: 900;">21. chmod command</p>
+    <p><strong>chmod</strong>&nbsp;is another Linux command, used to change the read, write, and execute permissions of files and directories. As this command is rather complicated, you can read&nbsp;<a href="https://www.computerhope.com/unix/uchmod.htm">the full tutorial</a>&nbsp;in order to execute it properly.</p>
+    <p style="font-size:20px; font-weight: 900;">22. chown command</p>
+    <p>In Linux, all files are owned by a specific user. The&nbsp;<strong>chown</strong>&nbsp;command enables you to change or transfer the ownership of a file to the specified username. For instance,&nbsp;<strong>chown linuxuser2 file.ext</strong>&nbsp;will make&nbsp;<strong>linuxuser2</strong>&nbsp;as the owner of the&nbsp;<strong>file.ext</strong>.</p>
+    <p style="font-size:20px; font-weight: 900;">23. jobs command</p>
+    <p><strong>jobs</strong>&nbsp;command will display all current jobs along with their statuses. A job is basically a process that is started by the shell.</p>
+    <p style="font-size:20px; font-weight: 900;">24. kill command</p>
+    <p>If you have an unresponsive program, you can terminate it manually by using the&nbsp;<strong>kill</strong>&nbsp;command. It will send a certain signal to the misbehaving app and instructs the app to terminate itself.</p>
+    <p><strong>kill [signal option] PID</strong>.</p>
+    <p style="font-size:20px; font-weight: 900;">25. ping command</p>
+    <p>Use the&nbsp;<strong>ping</strong>&nbsp;command to check your connectivity status to a server. For example, by simply entering&nbsp;<strong>ping google.com</strong>, the command will check whether you’re able to connect to Google and also measure the response time.</p>
+    <hr />
+    <h3> How to log into Docker container</h3>
+    <ol>
+      <li>Use <b>docker</b> ps to <b>get</b> the name of the existing <b>container</b>.</li>
+      <li>Use the command <b>docker</b> exec -it <<b>container</b> name> /bin/bash to <b>get</b> a bash shell <b>in</b> the <b>container</b>.</li>
+      <li>Generically, use <b>docker</b> exec -it <<b>container</b> name> < command > to execute whatever command you specify <b>in</b> the <b>container</b>.</li>
+    </ol>
   </div>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
   integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
