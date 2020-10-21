@@ -30,21 +30,21 @@ h1.second-project{
     background-size: cover;
     height: 100%;
     position: relative;
-    font-family: sathu; !important;
+    font-family: sathu !important;
 }
 .bg-image-custom-index{
     background: url("../Images/computer-in-park.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     position: relative;
-    font-family: sathu; !important;
+    font-family: sathu !important;
 }
 .bg-image-custom-about{
     background: url("../Images/office-blur.jpg") no-repeat center center fixed;
     background-size: cover;
     height: 100%;
     position: relative;
-    font-family: sathu; !important;
+    font-family: sathu !important;
 }
 .white-title{
     color: white;
@@ -173,8 +173,7 @@ h1.second-project{
             width: 55%;
         }
      .custom-container-about {
-            width: 100%;
-            padding: 0px;
+            width: 95% !important;
      }
      .custom-container-home{
         width: 100%;
@@ -192,8 +191,7 @@ h1.second-project{
             width: 100%;
         }
      .custom-container-about {
-            width: 100%;
-            padding: 0;
+            width: 95% !important;
      }
      .custom-container-home{
          width: 100%;
